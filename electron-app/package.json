@@ -1,0 +1,13 @@
+{
+  "name": "flowpilot-electron-app",
+  "version": "0.1.0",
+  "description": "FlowPilot desktop app using Electron",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^32.2.0"
+  }
+}

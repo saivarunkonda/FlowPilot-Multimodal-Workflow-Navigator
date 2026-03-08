@@ -1,0 +1,837 @@
+[
+  {
+    "id": "d74e7799-03a6-43d2-8d1c-0dcf598f4cc2",
+    "userInstruction": "Open Gmail and draft an email to my manager with subject Project Update",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "Planner fallback mode: Gemini call failed or output was not parseable.",
+      "confidence": 0.35,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I could not generate a reliable plan right now. Verify your GEMINI_API_KEY/model and try again.",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T16:39:20.179Z",
+    "updatedAt": "2026-03-05T16:39:20.179Z"
+  },
+  {
+    "id": "9dfbcd63-89a1-4c19-a613-a4c8025c40bc",
+    "userInstruction": "On Gmail, click Compose, set To as manager@company.com, subject ‘Project Update’, body ‘Sprint demo is ready’, then stop and ask for confirmation before sending.",
+    "currentUrl": "http://localhost:8080/",
+    "plan": {
+      "summary": "Compose an email in Gmail with specified recipient, subject, and body, then stop before sending.",
+      "confidence": 0.8,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I will compose the email. Do you want me to click the send button after filling in the details?",
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div.T-I.T-I-ax7.T-I-Js.T-I-Js-bu.gb_1",
+          "reason": "Click the Compose button to open a new email draft."
+        },
+        {
+          "action": "type",
+          "selector": "input.agP.aFw",
+          "text": "manager@company.com",
+          "reason": "Enter the recipient's email address in the 'To' field."
+        },
+        {
+          "action": "type",
+          "selector": "input.aoD.hl",
+          "text": "Project Update",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div.Am.Al.editable.LW-avf",
+          "text": "Sprint demo is ready",
+          "reason": "Enter the body of the email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T16:58:27.823Z",
+    "updatedAt": "2026-03-05T16:58:27.823Z"
+  },
+  {
+    "id": "6dd746ab-a11e-4440-ab93-963397c23892",
+    "userInstruction": "On Gmail, click Compose, set To as manager@company.com, subject ‘Project Update’, body ‘Sprint demo is ready’, then stop and ask for confirmation before sending.",
+    "currentUrl": "http://localhost:8080/",
+    "plan": {
+      "summary": "Compose an email in Gmail with specified recipient, subject, and body, then pause for confirmation before sending.",
+      "confidence": 0.8,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I will compose the email. Do you want me to click the send button after you confirm?",
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div[role=\"button\"][gh='cmU']",
+          "reason": "Click the Compose button to open a new email draft."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='To']",
+          "text": "manager@company.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='Subject']",
+          "text": "Project Update",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div[aria-label='Message Body']",
+          "text": "Sprint demo is ready",
+          "reason": "Enter the body of the email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T16:58:29.669Z",
+    "updatedAt": "2026-03-05T16:58:29.669Z"
+  },
+  {
+    "id": "6daffaec-c822-476b-9f16-b5aa901ba349",
+    "userInstruction": "On Gmail, click Compose, set To as manager@company.com, subject ‘Project Update’, body ‘Sprint demo is ready’, then stop and ask for confirmation before sending.",
+    "currentUrl": "http://localhost:8080/",
+    "plan": {
+      "summary": "Compose an email in Gmail with specified recipient, subject, and body, then pause for confirmation before sending.",
+      "confidence": 0.8,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I will compose the email. Do you want me to click the send button after you confirm?",
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div[role=\"button\"][gh=\"cm\"]",
+          "reason": "Click the Compose button to open a new email draft."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label=\"To\"]",
+          "text": "manager@company.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input[name=\"subjectbox\"]",
+          "text": "Project Update",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div[aria-label=\"Message Body\"]",
+          "text": "Sprint demo is ready",
+          "reason": "Enter the body of the email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T16:58:30.032Z",
+    "updatedAt": "2026-03-05T16:58:30.032Z"
+  },
+  {
+    "id": "a87ea072-dca2-48d8-b3e1-1f76cde14022",
+    "userInstruction": "On Gmail, click Compose, set To as manager@company.com, subject ‘Project Update’, body ‘Sprint demo is ready’, then stop and ask for confirmation before sending.",
+    "currentUrl": "http://localhost:8080/",
+    "plan": {
+      "summary": "Compose an email in Gmail with specified recipient, subject, and body, then pause for confirmation before sending.",
+      "confidence": 0.8,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I will compose the email. Do you want me to click the send button after you confirm?",
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div[role=\"button\"][gh='cmU']",
+          "reason": "Click the Compose button to open a new email draft."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='To']",
+          "text": "manager@company.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='Subject']",
+          "text": "Project Update",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div[aria-label='Message Body']",
+          "text": "Sprint demo is ready",
+          "reason": "Enter the body of the email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T16:58:30.727Z",
+    "updatedAt": "2026-03-05T16:58:30.727Z"
+  },
+  {
+    "id": "d3f23db6-37fc-491b-8a2f-637c12c678be",
+    "userInstruction": "what is on my screen",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "The screen shows the Gmail homepage with a banner about Gemini, a section about AI-powered email, and a visual representation of Gmail's interface.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "a[aria-label='Learn more']",
+          "reason": "Clicking the 'Learn more' link to get more information about Gemini."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:02:37.514Z",
+    "updatedAt": "2026-03-05T17:02:37.514Z"
+  },
+  {
+    "id": "dbaf6aff-76a8-4880-87f8-a8339401005c",
+    "userInstruction": "what on the page how do write mail to person",
+    "currentUrl": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
+    "plan": {
+      "summary": "The user is asking how to write an email. The current page is a blog post about Gmail. I need to navigate to Gmail to help the user.",
+      "confidence": 0.7,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "navigate",
+          "url": "https://mail.google.com/",
+          "reason": "Navigate to Gmail to allow the user to write an email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:03:28.893Z",
+    "updatedAt": "2026-03-05T17:03:28.893Z"
+  },
+  {
+    "id": "6cd2f395-94d4-4ec5-9d43-9404b691fdd0",
+    "userInstruction": "now what",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "The user is on the Gmail landing page and the instruction is 'now what'. This is ambiguous. The page offers options to 'Create an account' or 'Sign in'.",
+      "confidence": 0.5,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "Do you want to create an account, sign in, or explore Gmail for work?",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:03:46.551Z",
+    "updatedAt": "2026-03-05T17:03:46.551Z"
+  },
+  {
+    "id": "d6d4c229-b18c-44dd-b117-e8eed2f86878",
+    "userInstruction": "now what",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "The user is on the Gmail landing page and the instruction is 'now what'. This is ambiguous. The page offers options to create an account or sign in.",
+      "confidence": 0.5,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "What would you like to do next? Create an account, sign in, or explore options for work?",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:03:48.540Z",
+    "updatedAt": "2026-03-05T17:03:48.540Z"
+  },
+  {
+    "id": "867b6364-a1b1-4620-a996-4ea12f9c4fa8",
+    "userInstruction": "now what",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "The user is on the Gmail landing page and the instruction is 'now what'. This is ambiguous. The page offers options to 'Create an account' or 'Sign in'.",
+      "confidence": 0.5,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "Do you want to create an account, sign in, or explore Gmail for work?",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:03:49.087Z",
+    "updatedAt": "2026-03-05T17:03:49.087Z"
+  },
+  {
+    "id": "9b4c5ace-076a-432a-a61d-e9bb2af1d6af",
+    "userInstruction": "yes create",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "Click on the 'Create an account' button.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "button.glue-button.glue-button--primary.glue-button--large",
+          "text": null,
+          "key": null,
+          "durationMs": null,
+          "targetSelector": null,
+          "url": null,
+          "reason": "The user wants to create an account, and this button is the most direct way to do so."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:04:14.931Z",
+    "updatedAt": "2026-03-05T17:04:14.931Z"
+  },
+  {
+    "id": "20b44750-d7bd-4d90-80c1-868642bba505",
+    "userInstruction": "yes create",
+    "currentUrl": "https://workspace.google.com/intl/en-US/gmail/",
+    "plan": {
+      "summary": "Click on the 'Create an account' button.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "button.homepage__cta--primary",
+          "text": null,
+          "key": null,
+          "durationMs": null,
+          "targetSelector": null,
+          "url": null,
+          "reason": "The user wants to create an account, and this button is the primary call to action for that."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-05T17:04:16.157Z",
+    "updatedAt": "2026-03-05T17:04:16.157Z"
+  },
+  {
+    "id": "65e5a9fc-7430-448f-b59e-bafa84e2f375",
+    "userInstruction": "Compose Gmail draft and ask before send",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "Planner fallback mode: Gemini call failed or output was not parseable.",
+      "confidence": 0.35,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I could not generate a reliable plan right now. Gemini error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent: [400 Bad Request] Unable to process input image. Please retry or report in ht",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T07:34:56.109Z",
+    "updatedAt": "2026-03-07T07:34:56.109Z"
+  },
+  {
+    "id": "01346299-c29c-4697-8613-ad924c036db4",
+    "userInstruction": "Compose Gmail draft and ask before send",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "Planner fallback mode: Gemini call failed or output was not parseable.",
+      "confidence": 0.35,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I could not generate a reliable plan right now. Gemini error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent: [400 Bad Request] Unable to process input image. Please retry or report in ht",
+      "steps": []
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:35:48.899Z",
+    "updatedAt": "2026-03-07T07:35:48.988Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "01346299-c29c-4697-8613-ad924c036db4",
+      "currentUrl": "https://mail.google.com",
+      "executedSteps": 0
+    }
+  },
+  {
+    "id": "b2bab50c-883b-461d-8194-090f5ca7a94e",
+    "userInstruction": "hey can u mail saiv53381@gmail.com saying a request to join and make collaboration in the team",
+    "currentUrl": "https://mail.google.com/mail/u/0/#inbox",
+    "plan": {
+      "summary": "Compose an email to saiv53381@gmail.com with the subject 'Collaboration Request' and body 'I would like to request to join and collaborate with the team.'",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div.T-I.T-I-KE.L3",
+          "reason": "Click the Compose button to open a new email."
+        },
+        {
+          "action": "type",
+          "selector": "input.agP.aFw",
+          "text": "saiv53381@gmail.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input.aoD.hl",
+          "text": "Collaboration Request",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div.Am.Al.editable.LW-avf",
+          "text": "I would like to request to join and collaborate with the team.",
+          "reason": "Enter the body of the email."
+        },
+        {
+          "action": "click",
+          "selector": "div.T-I.J-J5-Ji.T-I-ax7.L3",
+          "reason": "Click the Send button to send the email."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:39:06.649Z",
+    "updatedAt": "2026-03-07T07:40:20.673Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "b2bab50c-883b-461d-8194-090f5ca7a94e",
+      "currentUrl": "https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHxpclzwWKpKCBBqdBkzSJmgNKpHzhXxcjmKJDBljrFnFhMHLBKVfXvlHSqzNwnkKfCSGlDblQlNJB",
+      "executedSteps": 5
+    }
+  },
+  {
+    "id": "bfa8b205-97e4-4b18-9fe7-6807044164eb",
+    "userInstruction": "hey can u mail saiv53381@gmail.com saying a request to join and make collaboration in the team",
+    "currentUrl": "https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHxpclzwWKpKCBBqdBkzSJmgNKpHzhXxcjmKJDBljrFnFhMHLBKVfXvlHSqzNwnkKfCSGlDblQlNJB",
+    "plan": {
+      "summary": "Send an email to saiv53381@gmail.com with the subject 'Collaboration Request' and body 'I would like to request to join and make collaboration in the team.'",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": ".T-I.T-I-KE.L3",
+          "reason": "Click the Compose button to open a new email."
+        },
+        {
+          "action": "wait",
+          "durationMs": 1000,
+          "reason": "Wait for the compose window to appear."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='To']",
+          "text": "saiv53381@gmail.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='Subject']",
+          "text": "Collaboration Request",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div[aria-label='Message Body']",
+          "text": "I would like to request to join and make collaboration in the team.",
+          "reason": "Enter the body of the email."
+        },
+        {
+          "action": "click",
+          "selector": ".T-I.J-J5-Ji.T-I-Js.T-I-J3.T-I-Jh.T-I-Jv.T-I-Jw",
+          "reason": "Click the Send button to send the email."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:40:30.011Z",
+    "updatedAt": "2026-03-07T07:41:26.504Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "bfa8b205-97e4-4b18-9fe7-6807044164eb",
+      "currentUrl": "https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHxpclzwWKpKCBBqdBkzSJmgNKpHzhXxcjmKJDBljrFnFhMHLBKVfXvlHSqzNwnkKfCSGlDblQlNJB",
+      "executedSteps": 6
+    }
+  },
+  {
+    "id": "56e3b25e-0a7c-4c46-8b39-41c8de5ebc2f",
+    "userInstruction": "hey can u mail saiv53381@gmail.com saying a request to join and make collaboration in the team",
+    "currentUrl": "https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzHxpclzwWKpKCBBqdBkzSJmgNKpHzhXxcjmKJDBljrFnFhMHLBKVfXvlHSqzNwnkKfCSGlDblQlNJB",
+    "plan": {
+      "summary": "Send an email to saiv53381@gmail.com with the subject 'Collaboration Request' and body 'I would like to request to join and make collaboration in the team.'",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div.T-I.T-I-KE.L3",
+          "reason": "Click the Compose button to open a new email."
+        },
+        {
+          "action": "wait",
+          "durationMs": 1000,
+          "reason": "Wait for the compose window to load."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='To']",
+          "text": "saiv53381@gmail.com",
+          "reason": "Enter the recipient's email address."
+        },
+        {
+          "action": "type",
+          "selector": "input[aria-label='Subject']",
+          "text": "Collaboration Request",
+          "reason": "Enter the subject of the email."
+        },
+        {
+          "action": "type",
+          "selector": "div[aria-label='Message Body']",
+          "text": "I would like to request to join and make collaboration in the team.",
+          "reason": "Enter the body of the email."
+        },
+        {
+          "action": "click",
+          "selector": "div[role='button'][aria-label='Send']",
+          "reason": "Click the Send button to send the email."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T07:41:30.011Z",
+    "updatedAt": "2026-03-07T07:41:30.011Z"
+  },
+  {
+    "id": "6825cfc4-c6e4-4369-8ace-77fd488aa86f",
+    "userInstruction": "can u check the cost and billing session and analyse that",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/console/home?nc2=h_si&region=us-east-1&src=header-signin#",
+    "plan": {
+      "summary": "Navigate to the Billing and Cost Management section to analyze costs.",
+      "confidence": 0.9,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "a[href*='billing']",
+          "reason": "Click on 'Billing and Cost Management' to navigate to the relevant section."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:51:29.195Z",
+    "updatedAt": "2026-03-07T07:51:34.096Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "6825cfc4-c6e4-4369-8ace-77fd488aa86f",
+      "currentUrl": "https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/account?AWS-Regions",
+      "executedSteps": 1
+    }
+  },
+  {
+    "id": "bd5e8b1a-2991-44eb-b155-6987b7b7abe9",
+    "userInstruction": "analyse that",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/account?AWS-Regions",
+    "plan": {
+      "summary": "The user wants to analyze the current page, which displays AWS account details. The page shows account information, display settings, and contact information.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T07:52:01.327Z",
+    "updatedAt": "2026-03-07T07:52:01.327Z"
+  },
+  {
+    "id": "23cda55b-8ac6-47e6-a09e-1148aa51c326",
+    "userInstruction": "analyse that",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+    "plan": {
+      "summary": "The user wants to analyze the current page, which is the AWS Billing and Cost Management home page. The page displays cost summaries and information about the free plan.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "a[href=\"#/home\"]",
+          "reason": "Click on the Home link to ensure the user is on the main billing and cost management page."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T07:52:25.821Z",
+    "updatedAt": "2026-03-07T07:52:25.821Z"
+  },
+  {
+    "id": "462f66f5-8612-420f-b748-d4c7dcb009c6",
+    "userInstruction": "analyse that",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+    "plan": {
+      "summary": "The user wants to analyze the current page, which is the AWS Billing and Cost Management home page. The page displays cost summaries and information about the free plan.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "a[href=\"#/home\"]",
+          "reason": "Click on the Home link to ensure the user is on the main billing and cost management page."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:52:26.348Z",
+    "updatedAt": "2026-03-07T10:04:10.297Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "462f66f5-8612-420f-b748-d4c7dcb009c6",
+      "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+      "executedSteps": 1
+    }
+  },
+  {
+    "id": "f157171e-ef69-4f1e-a421-c722a9670987",
+    "userInstruction": "Analyze this screen and generate executable navigation steps for a safe demo flow. Ask for confirmation before any send/delete/pay action.",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "Navigate to the FlowPilot Architecture diagram.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "navigate",
+          "url": "https://mail.google.com",
+          "reason": "Navigate to the provided URL to begin the demo flow."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T07:54:24.989Z",
+    "updatedAt": "2026-03-07T07:54:25.153Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "f157171e-ef69-4f1e-a421-c722a9670987",
+      "currentUrl": "https://mail.google.com",
+      "executedSteps": 1
+    }
+  },
+  {
+    "id": "70a8e917-f620-4c2e-ad76-6780b5428cad",
+    "userInstruction": "On Gmail, identify compose UI, draft an email to manager@company.com with subject Project Update and body Sprint demo is ready. Ask confirmation before send.",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "The user wants to compose an email in Gmail. However, the current page is a Google sign-in page, not Gmail. I need to ask the user to sign in first.",
+      "confidence": 0.5,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "It looks like you are on the Google sign-in page. Please sign in to your Gmail account first, and then I can help you compose the email.",
+      "steps": []
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T08:02:02.822Z",
+    "updatedAt": "2026-03-07T08:02:02.837Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "70a8e917-f620-4c2e-ad76-6780b5428cad",
+      "currentUrl": "https://mail.google.com",
+      "executedSteps": 0
+    }
+  },
+  {
+    "id": "dfc82d0b-5416-4982-98ba-7b27b9d0a0ab",
+    "userInstruction": "If this is Gmail inbox, generate steps to draft an email to manager@company.com with subject Project Update and body Sprint demo is ready, then ask confirmation before send. If not Gmail inbox, ask user to open Gmail inbox first.",
+    "currentUrl": "https://mail.google.com",
+    "plan": {
+      "summary": "The current page is not Gmail inbox. Ask user to open Gmail inbox first.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": "Please open your Gmail inbox first.",
+      "steps": []
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T08:07:39.164Z",
+    "updatedAt": "2026-03-07T08:08:01.675Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "dfc82d0b-5416-4982-98ba-7b27b9d0a0ab",
+      "currentUrl": "https://mail.google.com",
+      "executedSteps": 0
+    }
+  },
+  {
+    "id": "6288ec64-c27b-49b4-8b93-0a2ec8426aaf",
+    "userInstruction": "analyse that",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+    "plan": {
+      "summary": "The user wants to analyze the current page, which is the AWS Billing and Cost Management home page. The page displays cost summaries and information about the free plan.",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "a[href='#/home']",
+          "reason": "Clicking on 'Home' to ensure the user is on the main dashboard of Billing and Cost Management."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T10:04:16.248Z",
+    "updatedAt": "2026-03-07T10:04:19.573Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "6288ec64-c27b-49b4-8b93-0a2ec8426aaf",
+      "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+      "executedSteps": 1
+    }
+  },
+  {
+    "id": "8b801a93-05ff-46be-bd99-5f62e39da25a",
+    "userInstruction": "open the terminal and use the cmd to check the cost for current month",
+    "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+    "plan": {
+      "summary": "Open the AWS CloudShell to check the cost for the current month.",
+      "confidence": 0.9,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "div.awsui-app-layout-navigation-change-indicator",
+          "reason": "Click the AWS logo to open the navigation menu."
+        },
+        {
+          "action": "click",
+          "selector": "a[href='#/shell']",
+          "reason": "Click on CloudShell to open the terminal."
+        }
+      ]
+    },
+    "status": "executed",
+    "createdAt": "2026-03-07T10:05:01.225Z",
+    "updatedAt": "2026-03-07T10:05:23.316Z",
+    "executionResult": {
+      "mode": "dry-run",
+      "message": "ACTION_EXECUTOR_URL not configured; returning simulated execution.",
+      "workflowId": "8b801a93-05ff-46be-bd99-5f62e39da25a",
+      "currentUrl": "https://us-east-1.console.aws.amazon.com/costmanagement/home?region=us-east-1#/home",
+      "executedSteps": 2
+    }
+  },
+  {
+    "id": "edcf2c00-aa00-4c8d-9da9-f27cc9a0a27c",
+    "userInstruction": "quick test\n\nContext: Android UI automation. Output executable actions for mobile usage. Prefer actions using x and y coordinates in screen pixels for tap targets.",
+    "currentUrl": "android://screen",
+    "plan": {
+      "summary": "The user wants to perform a quick test. The current screen shows input fields for Backend URL and Instruction, along with buttons for Grant Capture, Accessibility, Capture + Plan, and Execute. The status indicates that the system is capturing a screenshot and requesting a plan.",
+      "confidence": 0.8,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "type",
+          "selector": "android.widget.EditText",
+          "text": "http://10.0.2.2:8080",
+          "reason": "Enter the backend URL."
+        },
+        {
+          "action": "type",
+          "selector": "android.widget.EditText",
+          "text": "quick test",
+          "reason": "Enter the instruction for the test."
+        },
+        {
+          "action": "click",
+          "selector": "android.widget.Button",
+          "text": "Capture + Plan",
+          "reason": "Click 'Capture + Plan' to initiate the test planning."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T19:28:13.102Z",
+    "updatedAt": "2026-03-07T19:28:13.102Z"
+  },
+  {
+    "id": "c3a359b3-46ec-4ed0-a669-bdfcbfd476be",
+    "userInstruction": "how many app as there on screen\n\nContext: Android UI automation. Output executable actions for mobile usage. Prefer actions using x and y coordinates in screen pixels for tap targets.",
+    "currentUrl": "android://screen",
+    "plan": {
+      "summary": "The user is asking to count the number of apps on the screen. This requires capturing a screenshot and analyzing its content, which is not directly possible with the current UI elements. The system is currently in a 'Working...' state, indicating it's processing a request.",
+      "confidence": 0,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I need to capture the screen to count the apps. Would you like me to proceed with capturing the screen?",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T19:34:15.932Z",
+    "updatedAt": "2026-03-07T19:34:15.932Z"
+  },
+  {
+    "id": "81db5dd0-2123-4a53-b584-52f025eb3ae1",
+    "userInstruction": "jhbk\n\nContext: Android UI automation. Output executable actions for mobile usage. Prefer actions using x and y coordinates in screen pixels for tap targets.",
+    "currentUrl": "android://screen",
+    "plan": {
+      "summary": "The user input 'jhbk' does not correspond to any recognizable action or element on the screen. Therefore, I need clarification.",
+      "confidence": 0.1,
+      "needsConfirmation": true,
+      "clarifyingQuestion": "I'm not sure what 'jhbk' means. Could you please tell me what you'd like to do?",
+      "steps": []
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T20:07:36.681Z",
+    "updatedAt": "2026-03-07T20:07:36.681Z"
+  },
+  {
+    "id": "4e5c58a6-72ad-4ad2-85da-f1e03c9c10c8",
+    "userInstruction": "open youtube\n\nContext: Android UI automation. Output executable actions for mobile usage. Prefer actions using x and y coordinates in screen pixels for tap targets.",
+    "currentUrl": "android://floating-overlay",
+    "plan": {
+      "summary": "Open YouTube",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "android.widget.ImageView",
+          "text": "YouTube",
+          "reason": "Click on the YouTube icon to open the application."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T20:09:16.098Z",
+    "updatedAt": "2026-03-07T20:09:16.098Z"
+  },
+  {
+    "id": "f0106d9b-cac6-4e91-a0bb-12779b114e88",
+    "userInstruction": "open youtube\n\nContext: Android UI automation. Output executable actions for mobile usage. Prefer actions using x and y coordinates in screen pixels for tap targets.",
+    "currentUrl": "android://screen",
+    "plan": {
+      "summary": "Open YouTube app",
+      "confidence": 1,
+      "needsConfirmation": false,
+      "clarifyingQuestion": null,
+      "steps": [
+        {
+          "action": "click",
+          "selector": "android.widget.TextView[@text='YouTube']",
+          "reason": "Click on the YouTube app icon to open it."
+        }
+      ]
+    },
+    "status": "planned",
+    "createdAt": "2026-03-07T20:09:45.494Z",
+    "updatedAt": "2026-03-07T20:09:45.494Z"
+  }
+]

@@ -1,0 +1,6 @@
+project_id             = "your-project-id"
+region                 = "us-central1"
+backend_image          = "us-central1-docker.pkg.dev/your-project-id/flowpilot/backend:latest"
+executor_source_bucket = "your-project-id-flowpilot-functions"
+executor_source_object = "ui-action-executor.zip"
+executor_api_key       = "replace-with-strong-key"

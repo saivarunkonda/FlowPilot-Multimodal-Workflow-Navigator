@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlowPilot Desktop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="panel">
+        <h1>FlowPilot Desktop</h1>
+
+        <label for="backendUrl">Backend URL</label>
+        <input id="backendUrl" value="http://localhost:8080" />
+
+        <label for="targetUrl">Target URL</label>
+        <div class="row">
+          <input id="targetUrl" value="https://mail.google.com" />
+          <button id="openBtn" class="secondary">Open</button>
+        </div>
+
+        <label for="instruction">Instruction</label>
+        <textarea id="instruction" rows="6" placeholder="Compose an email draft to manager@company.com with subject Project Update, then ask for confirmation before sending."></textarea>
+
+        <label class="inline-toggle">
+          <input id="strictSafety" type="checkbox" checked />
+          Strict safety mode (confirm before send/delete/pay)
+        </label>
+
+        <div class="row stretch">
+          <button id="planBtn">Capture + Plan</button>
+          <button id="runBtn" class="secondary">Run Plan</button>
+        </div>
+
+        <pre id="result"></pre>
+      </aside>
+
+      <main class="workspace">
+        <webview id="webview" src="https://mail.google.com" allowpopups partition="persist:flowpilot"></webview>
+      </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

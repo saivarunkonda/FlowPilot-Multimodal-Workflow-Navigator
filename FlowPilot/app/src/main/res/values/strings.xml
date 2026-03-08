@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlowPilot</string>
+    <string name="accessibility_service_name">FlowPilot Navigator</string>
+    <string name="accessibility_service_description">Allows FlowPilot to execute approved taps, typing, and navigation actions on your device.</string>
+    <string name="capture_service_channel_name">Screen capture</string>
+    <string name="capture_service_channel_description">Used while FlowPilot captures the screen for planning.</string>
+    <string name="capture_service_title">FlowPilot screen capture</string>
+    <string name="capture_service_text">Capturing screen for workflow planning.</string>
+</resources>

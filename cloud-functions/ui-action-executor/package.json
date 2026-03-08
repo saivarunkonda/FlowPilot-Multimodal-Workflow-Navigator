@@ -1,0 +1,13 @@
+{
+  "name": "flowpilot-ui-action-executor",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=executeWorkflow --signature-type=http"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.3",
+    "playwright": "^1.53.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FlowPilot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>FlowPilot</h1>
+      <label for="backendUrl">Backend URL</label>
+      <input id="backendUrl" placeholder="https://flowpilot-backend-...run.app" />
+
+      <label for="instruction">Instruction</label>
+      <textarea id="instruction" rows="4" placeholder="Draft an email to my manager about sprint demo."></textarea>
+
+      <label class="inline-toggle">
+        <input id="strictSafety" type="checkbox" checked />
+        Strict safety mode (confirm before send/delete/pay)
+      </label>
+
+      <div class="row">
+        <button id="planBtn">Capture + Plan</button>
+        <button id="runBtn" class="secondary">Run Last Plan</button>
+      </div>
+
+      <section id="result" aria-live="polite"></section>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

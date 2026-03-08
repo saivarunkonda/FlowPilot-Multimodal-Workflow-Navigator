@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "FlowPilot Navigator",
+  "version": "0.1.0",
+  "description": "Multimodal UI navigator for browser automation workflows",
+  "permissions": ["activeTab", "tabs", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

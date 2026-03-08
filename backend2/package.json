@@ -1,0 +1,20 @@
+{
+  "name": "flowpilot-backend2",
+  "version": "0.1.0",
+  "description": "FlowPilot backend without GCP dependencies (Gemini API key + local storage)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

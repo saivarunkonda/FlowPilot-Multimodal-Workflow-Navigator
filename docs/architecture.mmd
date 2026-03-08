@@ -1,0 +1,9 @@
+flowchart LR
+    A[Chrome Extension / Electron]
+    A -->|screenshot + instruction| B[Cloud Run Backend]
+    B -->|multimodal prompt| C[Gemini on Vertex AI]
+    C -->|action plan| B
+    B -->|store run + history| D[Firestore]
+    B -->|execute steps| E[Cloud Function Executor]
+    E -->|status + logs| B
+    B -->|plan + confirmations| A
