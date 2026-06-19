@@ -43,7 +43,7 @@ $env:Path = "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;$env:P
 gcloud --version
 ```
 
-## 1) Run Backend Locally
+## 1) a) Run Backend Locally
 
 ```bash
 cd backend
@@ -59,7 +59,7 @@ Backend health check:
 curl http://localhost:8080/health
 ```
 
-## 1b) Run Backend2 Locally (No GCP / No `gcloud`)
+## b) Run Backend2 Locally
 
 Use this mode if you want to run FlowPilot without any Google Cloud setup.
 
