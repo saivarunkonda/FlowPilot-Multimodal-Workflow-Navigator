@@ -43,7 +43,7 @@ $env:Path = "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;$env:P
 gcloud --version
 ```
 
-## 1) a) Run Backend Locally
+## 1a) Run Backend Locally
 
 ```bash
 cd backend
@@ -59,7 +59,7 @@ Backend health check:
 curl http://localhost:8080/health
 ```
 
-## b) Run Backend2 Locally
+## 1b) Run Backend2 Locally
 
 Use this mode if you want to run FlowPilot without any Google Cloud setup.
 
@@ -73,7 +73,7 @@ npm run dev
 
 Then in the extension popup, set backend URL to `http://localhost:8080`.
 
-## 2) Load Chrome Extension
+## 2a) Load Chrome Extension
 
 1. Open `chrome://extensions`
 2. Enable **Developer mode**
